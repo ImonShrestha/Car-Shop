@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE CarShowroom SYSTEM "catalog_19033682.dtd"> <!--Linking external DTD file to XML file-->
+<CarShowroom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="19033682_russiandoll.xsd"> <!--Creating root element and linking external schema-->
+
+    <Showroom> <!--Creating child element for storing showroom details-->
+        <ShowroomName panNumber="4599812"> Lazimpat Multi-Brand Car Showroom </ShowroomName>
+        <Address Country="Nepal">Lazimpat,Kathmandu</Address>
+        <PhoneNumber>014424909</PhoneNumber>
+        <Website>www.multibrandcarshowroom.com</Website>
+        <E-mail>lazimpatmultibrandcar@gmail.com></E-mail>
+    </Showroom>
+    
+    <Cars> <!--Creating child element for storing car details-->
+        <Car carNumber = "1">
+            <CarName Company="Hyundai">Grand i10 Nios</CarName>
+            <Price Currency="Nepalese Rupee" >34.56 Lakhs</Price>
+            <EmissionType>BS VI</EmissionType>
+            <EngineType MaxPower="73.97 bhp @4000 rpms">Air-cooled </EngineType>
+            <EngineDisplacement MaxTorque="190.24 Nm @2250 rpm">1197cc</EngineDisplacement>
+            <Mileage>26.2 Kmpl</Mileage>
+            <BreakType>Disc,Drum </BreakType>
+            <BodyType> HatchBack </BodyType>
+            <GearBox> 5 speed </GearBox>
+            <FuelCapacity FuelType=" Petrol">37.0L </FuelCapacity>
+            <GroundClearance>167mm</GroundClearance>
+            <Dimension Weight="1093 kg">Length:3765mm Width:1660mm Height:1520mm</Dimension>
+            <WheelSize WheelType="Alloy">2450mm </WheelSize>
+            <Feautures>Integrated ABS, Multi-function Steering Wheel, Touch Screen</Feautures>
+        </Car> 
+
+        <Car carNumber = "2">
+            <CarName Company="Kia">Sportage</CarName>
+            <Price Currency="Nepalese Rupee">86.90 Lakhs</Price>
+            <EmissionType>BS VI</EmissionType>
+            <EngineType MaxPower="181 hp @ 6000 rpm">Liquid cooled, Mechanical Lash Adjuster,Direct injection, 16V DOHC CVVT </EngineType>
+            <EngineDisplacement MaxTorque="175 lb @4000rpm">2359cc</EngineDisplacement>
+            <Mileage>48.58 kmpl</Mileage>
+            <BreakType>Disc</BreakType>
+            <BodyType> CompactSUV </BodyType>
+            <GearBox>6 speed Automatic </GearBox>
+            <FuelCapacity FuelType="Petrol">62LL</FuelCapacity>
+            <GroundClearance>172mm</GroundClearance>
+            <Dimension Weight="1770 kg ">Length:4440mm Width:1855mm Height:1635mm</Dimension>
+            <WheelSize WheelType="Alloy">17 inch </WheelSize>
+            <Feautures>Panoramic Sunroof, ABS, Touchscreen with bluetooth, Apple carplay, wireless charging</Feautures>
+        </Car> 
+
+        <Car carNumber = "3">
+            <CarName Company="Skoda">Rapid</CarName>
+            <Price Currency="Nepalese Rupee" >57.95 Lakhs</Price>
+            <EmissionType>BS VI</EmissionType>
+            <EngineType MaxPower="108.62 bhp @5500 rpm">Liquid cooled, Mechanical Lash Adjusters, DOHC Direct injection, 1.0L TSI Petrol </EngineType>
+            <EngineDisplacement MaxTorque="175 Nm @ 4000 rpm">1498cc</EngineDisplacement>
+            <Mileage>21.72 kmpl </Mileage>
+            <BreakType>Disc,Drum</BreakType>
+            <BodyType>Sedan </BodyType>
+            <GearBox>6 Speed Automatic</GearBox>
+            <FuelCapacity FuelType="Petrol ">55L </FuelCapacity>
+            <GroundClearance>163mm</GroundClearance>
+            <Dimension Weight="1770 kg">Length:4413mm Width:1699mm Height:1466mm</Dimension>
+            <WheelSize WheelType="Alloy">15 inch </WheelSize>
+            <Feautures>Power Windows, ABS, tacometer, Apple carplay, cup holder, charging port, keyless entry</Feautures>
+        </Car> 
+
+        <Car carNumber = "4">
+            <CarName Company="Honda">Civic</CarName>
+            <Price Currency="Nepalese Rupee" >75 Lakhs</Price>
+            <EmissionType>BS VI</EmissionType>
+            <EngineType MaxPower="140 ps @ 6500 rpm"> Liquid cooled, Mechanical Lash Adjusters, DOHC Direct injection, 1.0L TSI Petrol</EngineType>
+            <EngineDisplacement MaxTorque="142 Nm @ 5200 rpm">1798cc</EngineDisplacement>
+            <Mileage>13.7 kmpl</Mileage>
+            <BreakType> Disc,Drum</BreakType>
+            <BodyType>Sedan </BodyType>
+            <GearBox>6 Speed Aytomatic </GearBox>
+            <FuelCapacity FuelType=" Petrol">45L </FuelCapacity>
+            <GroundClearance>170mm</GroundClearance>
+            <Dimension Weight="1225 kg">Length: 4456mm Width:1799mm Height:1433mm</Dimension>
+            <WheelSize WheelType="Alloy">17 inch </WheelSize>
+            <Feautures>Cruise Control, ABS, tyre pressure monitoring, power steering, Heated mirros, charging port, keyless entry</Feautures>
+        </Car> 
+
+        <Car carNumber = "5">
+            <CarName Company="Ford">Mustang</CarName>
+            <Price Currency="Nepalese Rupee" >1.7 Cr</Price>
+            <EmissionType>V8</EmissionType>
+            <EngineType MaxPower="460 hp @ 7000 rpm"> 5.0L Ti-VCT V-8Engine</EngineType>
+            <EngineDisplacement MaxTorque="420 Nm @6500 rpm">4951cc</EngineDisplacement>
+            <Mileage>7 kmpl</Mileage>
+            <BreakType> Disc,Drum</BreakType>
+            <BodyType> Sports Car</BodyType>
+            <GearBox>6 Speed Automatic </GearBox>
+            <FuelCapacity FuelType=" Petrol">60.9L </FuelCapacity>
+            <GroundClearance>137mm</GroundClearance>
+            <Dimension Weight="1680 kg">Length:4784mm Width:2080mm Height:1391mm</Dimension>
+            <WheelSize WheelType="Alloy"> 27/35-18</WheelSize>
+            <Feautures>Iconic Design, Cruise Control, ABS, tyre pressure monitoring, power steering, Heated mirros, charging port, keyless entry</Feautures>
+        </Car> 
+
+        
+    </Cars>
+
+</CarShowroom>

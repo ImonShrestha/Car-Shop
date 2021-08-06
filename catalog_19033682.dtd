@@ -1,0 +1,40 @@
+<!--Declaring elements-->
+<!ELEMENT CarShowroom (Showroom,Cars)>
+<!ELEMENT Showroom (ShowroomName,Address,PhoneNumber,Website,E-mail)>
+<!ELEMENT Cars (Car+)>
+<!ELEMENT Car (CarName,Price,EmissionType,EngineType,EngineDisplacement,Mileage,BreakType,BodyType?,GearBox,FuelCapacity,GroundClearance,Dimension,WheelSize,Feautures)>
+
+<!--Declaring data type of element-->
+<!ELEMENT ShowroomName (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT PhoneNumber (#PCDATA)>
+<!ELEMENT Website (#PCDATA)>
+<!ELEMENT E-mail (#PCDATA)>
+<!ELEMENT CarName (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT EmissionType (#PCDATA)>
+<!ELEMENT EngineType (#PCDATA)>
+<!ELEMENT EngineDisplacement (#PCDATA)>
+<!ELEMENT Mileage (#PCDATA)>
+<!ELEMENT BreakType (#PCDATA)>
+<!ELEMENT BodyType (#PCDATA)>
+<!ELEMENT GearBox (#PCDATA)>
+<!ELEMENT FuelCapacity (#PCDATA)>
+<!ELEMENT GroundClearance (#PCDATA)>
+<!ELEMENT Dimension (#PCDATA)>
+<!ELEMENT WheelSize (#PCDATA)>
+<!ELEMENT Feautures (#PCDATA)>
+
+<!--Declaring attributes-->
+<!ATTLIST ShowroomName panNumber CDATA #REQUIRED>
+<!ATTLIST Address Country CDATA #REQUIRED>
+<!ATTLIST Car carNumber CDATA #REQUIRED>
+<!ATTLIST CarName Company CDATA #REQUIRED>
+<!ATTLIST Price Currency CDATA #REQUIRED>
+<!ATTLIST EngineType MaxPower CDATA #REQUIRED>
+<!ATTLIST EngineDisplacement MaxTorque CDATA #REQUIRED>
+<!ATTLIST FuelCapacity FuelType CDATA #REQUIRED>
+<!ATTLIST Dimension Weight CDATA #REQUIRED>
+<!ATTLIST WheelSize WheelType (Alloy | Spoke) #IMPLIED>
+<!ATTLIST CarShowroom xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST CarShowroom xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
